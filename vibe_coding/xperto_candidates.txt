@@ -1,0 +1,160 @@
+Create a recruitment profiles database app called Xperto Candidates.
+Create all databases necessary for the app.
+
+# DATA ARCHITECTURE 
+Each candidate should have a unique sequential id number.
+Each candidate profile should have the following fields.
+All fields listed with multiple possible values, should be multiple choice type.
+
+Create a Candidates database with the following architecture:
+
+## Fields
+
+### Unique Identifier
+* Candidate_ID
+
+### Personal and Contact Information
+* LAST name.
+* First name.
+* Date of Birth.
+* Gender: Male, Female, Other, Undisclosed.
+* Profile picture.
+* Phone Number.
+* E-mail.
+
+### Professional Profile
+* One Line Description. 
+* Profile summary.
+* Skills Description.
+* Attached document for the Curriculum Vitae.
+* Linkedin Profile URL:
+* Professional level: junior, officer, senior, executive.
+* Area of Focus: Software Development, Media Creation, Education Management, Commercial Operations, Business Management, Secretarial, Other.
+* Work Experience at: International Company; Big Company; Public Institutions; Non-Profit; Educational Institution; Media, Marketing or Advertising.
+* English Speaking: Yes, No.
+* English Level: Basic, Read, Write, Fluent, Native.
+
+### Profile Evaluation
+* Rating: Poor, Average, Good, Outstanding.
+* Profile Commentary.
+* Profile Pros.
+* Profile Cons.
+* Hiring Recommendation: Hire, Maybe, Discard, Keep for Other Positions.
+* Evaluation Process Log Commentary.
+
+### Evaluation Process
+* Next Step: Contact, Phone Interview, In Person Interview, Tests and Assessment, Offer Letter, Hire, Discard, Discarded.
+
+## About Multiple Choice Fields
+
+* All fields with multiple options should allow multiple values to be selected, except for: Gender, English Speaking, Professional Level, Rating, Hiring Recommendation and Next Step.
+
+* When displaying multiple choice fields in create forms or edit forms, they should be displayed as clickable checkboxes if they allow multiple selections.
+
+* When displaying Multiple choice fields with multiple values, the values should be rendered separated by commas.
+
+* The following fields can only have one option selected: Gender, English Speaking, Professional Level, Rating, Hiring Recommendation and Next Step.
+
+* When displaying multiple choice fields in create forms or edit forms, they should be displayed as radio button if they only allow one selection.
+
+
+# PROFILE CREATION PAGE
+
+The app includes a page that allows creating a new profile, with all the fields described in the DATA ARCHITECTURE, grouped by the sections described in the DATA ARCHITECTURE.
+
+Use H3 headings to separate each group of fields.
+Use a visual border line with a subtle shade around each group of fields.
+Only "First Name" and "Last Name" should be required fields.
+
+When the user clicks the Submit Button, the profile should be saved in the Candidates database.
+
+
+# INDIVIDUAL PROFILE PAGE
+
+The app includes a page that displays a single profile.
+
+## Page Structure and Format
+* The Individual Profile Page displays all the fields described in the DATA ARCHITECTURE for an individual profile, grouped by the sections described in the DATA ARCHITECTURE.
+* Use H3 headings to separate each group of fields.
+* Use a visual border line with a subtle shade around each group of fields.
+
+## Page Functionality and Options:
+The profile page should have the options to:
+* Edit the profile: Allowing the User to edit all the fields described in the DATA ARCHITECTURE, grouped by the sections described in the DATA ARCHITECTURE.
+* Delete the profile: Asking for confirmation and warning that once deleted, a profile can't be recovered.
+* Create: Opening the Profile Creation Page.
+
+## Special Fields Behavior
+When displaying the profile, the following fields should have the following behaviors:
+* The Phone Number should be a clickable phone link.
+* The E-mail should be a clickable e-mail link.
+* The Linkedin Profile URL should be a clickable Linkedin Link.
+
+
+# FIND A PROFILE PAGE
+* Displays a search field that allows doing a Partial Match search within the Candidates database Last Name field. 
+* For each match, a link to the INDIVIDUAL PROFILE PAGE should be displayed.
+
+
+# REPORTS
+* The app offers a Summary Candidates Report and a Detailed Candidates Report.
+* The reports allow clicking on each profile listed to display the full profile.
+* The Linkedin Profile URL field includes a clickable link to the profile's LinkedIn web address in the field value.
+
+## Summary Candidates Report
+It lists the records from the Candidates database.
+* Columns from the DATABASE ARCHITECTURE: Last Name, First Name, One Line Description, Skills Description, Date of Birth, English Speaking, Professional Level, Rating, Hiring Recommendation, Next Step.
+* Sortable by each field.
+* Able to be filtered by: Last Name (Partial Match), English Speaking, Professional Level, Rating, Hiring Recommendation and Next Step. All as dropdown options.
+
+## Detailed Candidates Report
+It lists the records from the Candidates database.
+* Columns from the DATABASE ARCHITECTURE: Last Name, First Name, One Line Description, Profile Summary, Skills Description, Date of Birth, English Speaking, Professional Level, Rating, Profile Commentary, Hiring Recommendation, Next Step.
+* Sortable by each field.
+* Able to be filtered by: Last Name (Partial Match), English Speaking, Professional Level, Rating, Hiring Recommendation and Next Step. All as dropdown options.
+
+
+# APP FUNCTIONALITY
+
+The App should have the following functionality:
+
+* Creation of Individual Profile Pages for each candidate being evaluated for recruitment.
+* Searching, Editing and Deleting Individual Profiles.
+* Listing all profiles in sortable and filterable Summary Candidates Report and Detailed Candidates Report.
+
+
+# APP BEHAVIOR AND FLOW
+
+## Initial Screen (Home)
+The App opening screen should display 4 big options, each with a relevant icon:
+* Create a Profile: Takes you to the "PROFILE CREATION PAGE".
+* Find a Profile: Takes you to the "FIND A PROFILE PAGE".
+* Summary Candidates Report: Takes you to the "SUMMARY CANDIDATES REPORT".
+* Detailed Candidates Report: Takes you to the "DETAILED CANDIDATES REPORT".
+
+## Profile Creation Page
+When the user clicks Submit in the "PROFILE CREATION PAGE" form, the data should be saved in the Candidates database and the user should be returned to the Home Screen.
+
+
+# APP STYLE AND LAYOUT
+
+* Use an elegant and modern Flat Design 2.0 UI and flat icons with minimal shading.
+* Use the following colors and a palette around them for the interface elements: #003473, #425500, #84bd00.
+* Use Open Sans as the font family for all elements.
+* All pages should be elegantly formatted with Header, Menu, Sections and Footer.
+* A Centered Title should be displayed at the top of the page with its corresponding flat 2.0 icon.
+
+## Persistent Menu
+Include a menu with icons in all pages with the following options:
+
+* Home: Takes you to the Start Page.
+* Create a Profile: Takes you to the "PROFILE CREATION PAGE".
+* Find a Profile: Takes you to the "FIND A PROFILE PAGE".
+* Summary Report: Takes you to the "SUMMARY CANDIDATES REPORT".
+* Detailed Report: Takes you to the "DETAILED CANDIDATES REPORT".
+
+## Footer
+All pages should display a footer with:
+* A link to the Home page.
+* The App Name.
+* The following attribution: "Xperto Solutions (c) 2025".
