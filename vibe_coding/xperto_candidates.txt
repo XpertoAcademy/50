@@ -1,13 +1,6 @@
 Create a recruitment profiles database app called Xperto Candidates.
 
-# DATA HOSTING
-Data is stored in the Default Firestore Database.
-Configure the App to connect to the Default Firestore Database.
-Create all database entities (tables, fields, etc.) necessary for the app.
-
 # DATA ARCHITECTURE 
-Please create the following DATA ARCHITECTURE for a RECRUITMENT CANDIDATES app.
-
 All fields listed with multiple possible values, should be multiple choice type.
 
 ## Fields
@@ -64,6 +57,12 @@ Only the following fields are required when adding a Profile.
 * LAST name.
 * First name.
 The rest of fields are optional
+
+
+# DATA HOSTING
+Data is stored in the Default Firestore Database.
+Configure the App to connect to the Default Firestore Database.
+Create all database entities (tables, fields, etc.) necessary for the app.
 
 
 # PROFILE CREATION PAGE
