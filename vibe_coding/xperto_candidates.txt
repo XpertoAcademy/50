@@ -23,7 +23,8 @@ All fields listed with multiple possible values, should be multiple choice type.
 * Skills Description.
 * Attached document for the Curriculum Vitae.
 * Linkedin Profile URL:
-* Professional level: junior, officer, senior, executive.
+* Professional level: Junior, Officer, Senior, Executive.
+* Academic Level: PhD, Masters, Bachelor, Technical, High School, Other.
 * Area of Focus: Software Development, Media Creation, Education Management, Commercial Operations, Business Management, Secretarial, Other.
 * Work Experience at: International Company; Big Company; Public Institutions; Non-Profit; Educational Institution; Media, Marketing or Advertising.
 * English Speaking: Yes, No.
