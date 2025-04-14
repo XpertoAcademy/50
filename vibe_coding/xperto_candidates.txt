@@ -1,12 +1,14 @@
 Create a recruitment profiles database app called Xperto Candidates.
-Create all databases necessary for the app.
+
+# DATA HOSTING
+Data is stored in the Default Firestore Database.
+Configure the App to connect to the Default Firestore Database.
+Create all database entities (tables, fields, etc.) necessary for the app.
 
 # DATA ARCHITECTURE 
-Each candidate should have a unique sequential id number.
-Each candidate profile should have the following fields.
-All fields listed with multiple possible values, should be multiple choice type.
+Please create the following DATA ARCHITECTURE for a RECRUITMENT CANDIDATES app.
 
-Create a Candidates database with the following architecture:
+All fields listed with multiple possible values, should be multiple choice type.
 
 ## Fields
 
@@ -56,6 +58,12 @@ Create a Candidates database with the following architecture:
 * The following fields can only have one option selected: Gender, English Speaking, Professional Level, Rating, Hiring Recommendation and Next Step.
 
 * When displaying multiple choice fields in create forms or edit forms, they should be displayed as radio button if they only allow one selection.
+
+## Required fields
+Only the following fields are required when adding a Profile.
+* LAST name.
+* First name.
+The rest of fields are optional
 
 
 # PROFILE CREATION PAGE
@@ -143,6 +151,8 @@ When the user clicks Submit in the "PROFILE CREATION PAGE" form, the data should
 * Use Open Sans as the font family for all elements.
 * All pages should be elegantly formatted with Header, Menu, Sections and Footer.
 * A Centered Title should be displayed at the top of the page with its corresponding flat 2.0 icon.
+* Highlight titles using a dark color for their background and a light color for their text.
+* Use H3 for title sections and h4 for subsections.
 
 ## Persistent Menu
 Include a menu with icons in all pages with the following options:
