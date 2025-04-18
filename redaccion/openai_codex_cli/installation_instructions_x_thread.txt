@@ -1,0 +1,82 @@
+# REQUEST
+Please write a set of tweets for a Twitter thread commenting on OpenAI Codex CLI and for sharing the step by step instructions in English. Start with a tweet that says something like “OpenAI launched Codex CLI, a lightweight coding agent that runs in your terminal. Here are step by step instructions for installing it under Windows 11”, followed by a quick note on what OpenAI Codex CLI is, and then the multiple tweets threads with the instructions below, adjusting its language as you see fit and breaking it into tweets.
+Add the instructions and steps for launching the Windows Shell, which I missed including.
+
+## Step-by-Step Instructions for Installing OpenAI Codex CLI on Windows 11
+To install Codex CLI on Windows 11, follow these steps:
+
+### 1. Install Node.js on Your Computer
+
+The easiest way is to download a prebuilt Node.js Windows Installer from:
+🔗 https://nodejs.org/en/download
+Run the installer — it will install Node.js along with the necessary packages and configuration.
+
+To verify that Node.js and npm are installed correctly, open Windows PowerShell and run:
+node -v
+npm -v
+
+### 2. Change Script Execution Policy in PowerShell
+
+Learn more about PowerShell execution policies here:
+🔗 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies
+
+Once you're comfortable with what it implies, open Windows PowerShell and run:
+Set-ExecutionPolicy Restricted -Scope CurrentUser
+ℹ️ Note: You may need to select "Yes" or "Yes to All" to proceed.
+
+### 3. Verify Your Organization in OpenAI
+
+Go to:
+🔗 https://platform.openai.com/settings/organization/general
+You’ll need to complete digital onboarding — have a valid ID (national ID, driver’s license, or passport) and a working camera (from your computer or phone) ready.
+
+### 4. Add a Payment Method to OpenAI
+
+To activate Codex CLI, OpenAI requires a minimum charge of $5 USD.
+Register a credit card here:
+🔗 https://platform.openai.com/settings/organization/billing/payment-methods
+
+### 5. Create or Confirm an Active Project on OpenAI
+Ensure you have at least one active project in OpenAI’s platform:
+🔗 https://platform.openai.com/settings/organization/projects
+
+### 6. Generate Your OpenAI API Key
+
+Create your API key here:
+🔗 https://platform.openai.com/settings/organization/api-keys
+Copy and store it securely.
+ℹ️ OpenAI will not display it again completely.
+
+### 7. Set the OPENAI_API_KEY Environment Variable in PowerShell
+
+Open PowerShell and type:
+$env:OPENAI_API_KEY="your_openai_api_key"
+To check that it worked:
+echo $env:OPENAI_API_KEY
+ℹ️ Note: This sets the environment variable only for the current session.
+
+#### To permanently set the OPENAI_API_KEY environment variable in PowerShell:
+You can set it in your PowerShell Profile.
+* Check where your profile is stored:
+Open Windows PowerShell and type:
+echo $PROFILE
+* Open it in Notepad or in VSCode (if you have it installed and prefer it):
+notepad $PROFILE
+code $PROFILE
+
+ℹ️If the file doesn’t exist, it will prompt you to create it — accept the prompt.
+
+Then, inside the profile file, add the line:
+$env:OPENAI_API_KEY="your_openai_api_key"
+Save the file, close PowerShell, then reopen it and run:
+echo $env:OPENAI_API_KEY
+You should now see your key permanently available in new PowerShell sessions.
+
+### You’re Ready to Use Codex CLI!
+From here, you can run Codex CLI by simply typing:
+codex
+Or directly give it a prompt, like:
+codex "translate this Python function to JavaScript"
+
+ℹ️ If you want Codex CLI to auto-install any required dependencies, when running a prompt, use the parameters add “--approval-mode full-auto” to the prompt, as in:
+codex --approval-mode full-auto "create a modern recruitment app to register and evaluate job candidates"
