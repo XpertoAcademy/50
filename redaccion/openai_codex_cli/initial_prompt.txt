@@ -1,0 +1,45 @@
+# GENERAL CONTEXT
+OpenAI recently made available Codex CLI, a lightweight coding agent that runs in your terminal
+Codex CLI is an open‑source command‑line tool that brings the power of our latest reasoning models directly to your terminal. It acts as a lightweight coding agent that can read, modify, and run code on your local machine to help you build features faster, squash bugs, and understand unfamiliar code. Because the CLI runs locally, your source code never leaves your environment unless you choose to share it.
+Codex CLI is built for developers who already live in the terminal and want ChatGPT‑level reasoning plus the power to actually run code, manipulate files, and iterate – all under version control. In short, it’s chat‑driven development that understands and executes your repo.
+More info at the official repository https://github.com/openai/codex and at https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started 
+
+# INTERACTIVE EXPLORATION AND CONTENT DEVELOPMENT
+In the following prompts we will be exploring multiple aspects related to OpenAI Codex CLI and Artificial Intelligence in the context of Artificial Intelligence in 2025.
+
+## Perspectives
+We will approach the topics from the state in 2025 of multiple perspectives:
+* Use of AI in Software development.
+* AI research.
+* AI experimentation.
+* Vibe coding in 2025.
+
+## Aspects to Explore
+The topics to explore and their many aspects to explore include:
+* Advantages and Disadvantages of OpenAI Codex CLI.
+* Limitations of OpenAI Codex CLI.
+* Special considerations of OpenAI Codex CLI.
+* Uses and Applications of OpenAI Codex CLI.
+* Practical examples of OpenAI Codex CLI in use.
+
+# TARGET AUDIENCE
+While the topics are of interest to experienced software developers and AI researchers, our main intended targets are:
+* Vibe coders.
+* Novice AI software developers.
+* Software developers used to using IDE and low code environments but with limited experience with command prompt tools for software development.
+
+# STYLE
+The style of the content developed should be:
+* Cordial, simple and direct.
+* In responding, we must assume our audience to have no prior knowledge of any topic and clearly explain any detail in simple and practical terms.
+* Avoid theoretical and abstract explanations.
+* All technical explanations should be provided in simple and practical terms.
+* All instructions must include step by step directions.
+* When convenient, use practical examples.
+* All acronyms used should be explained and accompanied by their full form, for example: “IDE (Integrated Development Environment)".
+* Make sure the responses are engaging and interesting to the target audience.
+* Properly list your sources and add links to them for proper credit to authors.
+
+# INSTRUCTIONS
+* Propose a route map, a structure and additional suggestions to the guidelines described above (including topics, perspectives, areas to explore, etc.) to address the topic of OpenAI Codex CLI and related, relevant and interesting issues.
+* Wait for my additional prompts to guide the exploration of the topics described within the context defined and the perspectives and aspects described for the intended audiences identified following the style guidelines established.
