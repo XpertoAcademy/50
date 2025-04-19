@@ -1,0 +1,106 @@
+These are the updated instructions for Installing OpenAI Codex CLI on Windows 11.
+Use these instructions as the source for future content about Installing OpenAI Codex CLI on Windows 11
+
+# Step by Step Instructions for Installing OpenAI Codex CLI on Windows 11
+
+## Introduction
+@OpenAI just launched Codex CLI — a lightweight AI coding agent that runs right in your terminal. It reads, edits, and runs code locally under version control. Think of it as a super smart coding assistant you can chat with to build faster, squash bugs, and explore unfamiliar code.
+For Windows 11 folks who are ready to dive in, here's a step-by-step guide to get Codex CLI installed on your machine. Let's get coding! (the instructions work on any other system with minor modifications).
+ #OpenAI #CodexCLI #DevTools #VibeCoding
+### What is Codex CLI?
+It’s an open-source command-line tool that brings the power of OpenAI’s latest reasoning models directly to your terminal. It can read, modify, and run code locally—like having ChatGPT-level intelligence that can actually execute commands in your repo.
+The best part? Your source code never leaves your environment unless you choose to share it. Perfect for developers who live in the terminal and want to build features faster, squash bugs, and understand unfamiliar code.
+Is it only for developers? No. If you are comfortable typing your prompts (we are already typing them in the LLM apps) in a local terminal window you can analyze your confidential information and documents without uploading it to the cloud.
+Do not that there are easier (and free) ways of running LLM models locally in your computer to interact with your local data without using the cloud or connecting to the Internet, like LM Studio and Ollama. But for now, let’s focus on getting Codex CLI running on a Windows computer.
+### What are CLI Tools?
+CLI Tools, or Command-Line Interface tools, are programs that you run from a text-based interface—usually a terminal or console window—by typing in commands rather than clicking buttons or using menus. They’re like the power tools of the digital world: sleek, direct, and incredibly versatile once you know how to use them.
+### About the Instructions
+The @OpenAI Codex CLI installation instructions are divided in 3 parts: 
+1. Configure your OpenAI Platform account to run Codex CLI.
+2. Configure PowerShell on your computer to run CLI tools.
+3. Install the necessary software in your computer (Node.js, npm and CODEX CLI)
+PART I: CONFIGURING YOUR OPENAI ACCOUNT TO RUN CODEX CLI
+### 📝 Step 1: Setting up your Open AI account
+Sign Up or Log In to your OpenAI Platform Account
+If you don’t have an account with OpenAI (ChatGPT), you need to create one.
+If you have a ChatGPT account, you can use that account.
+🔗 Go to https://platform.openai.com and Sign Up or Log In.
+### ✅ Step 2: Verify Your OpenAI Organization
+You need to complete a quick digital onboarding with a valid ID (national id, driver’s license or passport) and a camera (from  your computer or mobile device) in order to confirm your identity and verify your account.
+🔗 Go to https://platform.openai.com/settings/organization/general and follow the instructions under Verifications.
+### 💳 Step 3: Set Up a Payment Method
+Codex CLI connects to OpenAI models via its API, which has a cost. A small one, but still a cost. And it requires setting up a payment method and a minimum charge of $5 USD.​
+🔗 Add your payment method at https://platform.openai.com/settings/organization/billing/payment-methods 
+### 📁 Step 4: Create or Confirm an Active Project
+Projects are like workspaces for your coding tasks in OpenAI’s platform.
+Make sure you have at least one project created and active in your OpenAI account.
+🔗View your projects or add one at: https://platform.openai.com/settings/organization/projects
+### 🔑 Step 5: Generate Your OpenAI API Key
+An API Key is like the secret key that lets Codex CLI talk to OpenAI's brain. A key is required to run Codex. Each key is linked to an existing Project. 
+Create your API key at
+🔗 https://platform.openai.com/settings/organization/api-keys 
+🔗 https://platform.openai.com/api-keys
+ℹ️ Copy and store it securely. OpenAI will not display it again completely. The key should not be published or shared with any one. Keep it safe!
+## PART II: CONFIGURING WINDOWS POWERSHELL TO RUN OPENAI CODEX CLI
+### 🛠️ Step 6: Adjust PowerShell's Script Execution Policy
+Running scripts via CLI tools like codex and npm requires changing your computer’s policy to allow script execution.
+Learn more about what this means here: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies 
+Once you're comfortable, you can proceed by changing the permission to allow running scripts from Windows PowerShell.
+Open Windows PowerShell by pressing the Windows key, type "PowerShell", and click on "Windows PowerShell". A PowerShell terminal window pops up!
+🖥️ In the PowerShell terminal window that opens, type the following and press Enter:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser  
+ℹ️ If prompted for confirmation, type Y or A (for Yes to All) and press Enter.
+ℹ️ If you ever want to revert the permission to disallow script execution, just open Windows PowerShell and type: Set-ExecutionPolicy Restricted -Scope CurrentUser
+### 🔢 Step 7: Set the OPENAI_API_KEY Environment Variable
+In order to connect to OpenAI models, Codex requires your OpenAI API Key.
+You can set it for the current session from within PowerShell.
+🖥️ In the PowerShell terminal window, type and press Enter:
+$env:OPENAI_API_KEY="your_openai_api_key"
+ℹ️ "Your_openai_api_key" is the API Key you created before and safely stored.
+If you lost it, it’s ok. Go back to Step 5 and generate another Key.
+✅ Step 7a: Verify the variable has been set.
+🖥️ Just type the following in the PowerShell terminal and press enter.
+echo $env:OPENAI_API_KEY
+It should display the key.
+ℹ️ Note: This is temporary for the current session only.
+#### 🔐 Step 7b: Make the OPENAI_API_KEY Environment Variable Persistent
+To set the API key permanently and persistent across sessions every time you open PowerShell:​
+🖥️ Check your PowerShell profile path by typing and pressing enter in the Windows Powershell:
+echo $PROFILE
+🖥️ Open this file to edit it with notepad by typing and pressing enter :
+notepad $PROFILE
+🖥️ Or of if you prefer VScode, type:
+code $PROFILE
+If the file doesn't exist, it will ask to create it - say yes!
+🖥️ Then, copy the instruction we used before for the environment variable and paste it in the file and save it:
+$env:OPENAI_API_KEY="your_openai_api_key"
+ℹ️ "Your_openai_api_key" is the API Key you created before and safely stored.
+## PART III: INSTALLING NECESSARY SOFTWARE TO RUN CODEX CLI
+### 🖥️ Step 8: Install Node.js
+Codex CLI needs Node.js to run. It's like the engine under the hood!
+On Windows, the easiest way to install Node.js is to download and run a prebuilt Node.js Windows Installer from: 🔗 https://nodejs.org/en/download
+Run the downloaded file and follow the on-screen instructions. The installer will take care of setting up Node.js and its helpful buddy, npm (which stands for Node Package Manager – it helps manage coding tools!).
+#### ✅ Step 8a: Test Node from Windows PowerShell
+🖥️ After installation, verify it is properly installed by typing the following in Windows PowerShell and pressing Enter:
+node -v
+npm -v
+Both should return version numbers.
+ℹ️ If you closed PowerShell, just do the following to open a new window:
+Press the Windows key, type "PowerShell", and click on "Windows PowerShell". A PowerShell terminal window pops up!
+### 🖥️ Step 9: Install Codex CLI
+In PowerShell, install Codex CLI globally:
+npm install -g @openai/codex
+ℹ️ If you closed PowerShell, just do the following to open a new window:
+Press the Windows key, type "PowerShell", and click on "Windows PowerShell". A PowerShell terminal window pops up!
+That’s it, you should be all set!
+### 🚀 Step 10: Run Codex CLI
+To start Codex CLI, simply type in PowerShell:
+codex
+And start prompting. Your prompts will apply to the folder where you started codex from.
+So, it is better to start codex from a specific directory. In Windows PowerShell, go to the directory or repository where you want the prompts to apply (files to analyze) or the output to be created and then run codex.
+If you want to run a complex process and not be prompted for confirmation, use the --approval-mode full-auto parameter, as in:
+mkdir recruitment_app
+codex --approval-mode full-auto "create a modern recruitment app to register and evaluate job candidates"
+### 💸 So How much money does it cost to use it?
+Not much. The following command consumed 114,000 tokens with a cost of US$0.17 cents. It created a responsive website with its css style sheet:
+codex --approval-mode full-auto write a responsive website for an insurance agent
