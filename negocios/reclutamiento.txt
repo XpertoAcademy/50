@@ -1,36 +1,44 @@
+Estamos en el proceso de evaluación de candidatos para su contratación. Deseo que me ayudes, evaluando exhaustivamente cada perfil individual de acuerdo a nuestras perspectivas y consideraciones específicas.
+
 ## Contexto de Contratación: Nuestro perfil
 (Define quién contrata, en qué contexto organizacional y con qué valores)
 Somos [un(a) organización social/empresa/corporación/profesional independiente]
 Nos dedicamos a [misión/actividades] en el [sector/contexto/región].
 Nos distinguimos por [valores distintivos/cultura organizacional/forma de trabajo/estándares].
-
+Nuestra cultura favorece [autonomía/innovación/relaciones horizontales/ejecución rigurosa/etc.].
 
 ## Nuestra necesidad
-(describe la necesidad que se desea satisfacer, no la persona a contratar, sino el resultado a lograr y el impacto a generar por su contratación)
-Necesitamos mejorar/satisfacer/desarrollar/aprovechar... 
+(Describe la necesidad que se desea satisfacer, el cambio que se desea provocar, el resultado a lograr y el impacto a generar, sin describir la persona o el perfil a contratar)
+Necesitamos abordar/mejorar/sostener/desarrollar... [problema/oportunidad].
+Este desafío requiere una intervención [estratégica/táctica/operativa] para lograr [impacto esperado].
+El éxito en este rol se reflejará en... [indicadores de éxito/resultados concretos].
 
 ## Consideraciones sobre la necesidad y su satisfacción
-(describe aspectos delicados, dificultades, retos, requisitos específicos, particularidades, riesgos, etc. de la necesidad. Por ejemplo, requiere un enfoque organizado, continuo, tenaz, con seguimiento detallado, balanceando el seguimiento con el respeto, etc.)
+(Describe factores que condicionan la satisfacción de la necesidad: contexto, urgencia, limitaciones, aspectos delicados, dificultades, retos, requisitos específicos, particularidades, riesgos, etc. Por ejemplo: requiere un enfoque organizado, continuo, tenaz, con seguimiento detallado, inmersión y vinculación profunda y enfocada, balanceo del seguimiento con el respeto, etc.)
 Satisfacer nuestra necesidad implica...
 
-## Intención
-(describe lo que deseas, ahora sí podemos describir el perfil, descripción de puesto y/o matriz de tareas de la persona a contratar)
-Deseamos contratar una persona con un perfil ... para ...
+## Perfil Deseado y Roles a Desempeñar
+(Describe el tipo de persona que deseas y las funciones que le serán Asignadas. Ahora sí podemos describir el perfil, descripción de puesto y/o matriz de tareas de la persona a contratar)
+Deseamos contratar una persona con un perfil [técnico/experto/multidisciplinario] y [descripción en una línea].
+Es importante que posea fortalezas en [habilidades clave].
+Esta persona se dedicará a [roles/tareas/responsabilidades/decisiones/relaciones/interacciones/etc].
+Su rol será [estratégico/administrativo/comercial/operativo/secretarial/etc].
+Esta persona realizará su rol coordinación con [equipo/colegas/supervisor/subalternos].
+Esta persona interactuará con [clientes/proveedores/empleados/autoridades/etc]
 
 ## Consideraciones sobre el perfil a contratar
-(describe aspectos específicos importantes sobre el perfil a contratar. Por ejemplo, requiere discreción, buenas habilidades sociales, manejo profesional de alto nivel, habilidades tecnológicas, etc.)
+(Describe aspectos específicos importantes sobre el perfil a contratar. Por ejemplo: discreción, buenas habilidades sociales, manejo profesional de alto nivel, habilidades tecnológicas, capacidad para moverse entre ambientes estructurados / inciertos, interactuar con el sector público, etc.)
+La persona debe exhibir ...
 
-## Instrucción
-Por favor, evalúa el perfil anexo y proporciona tu opinión sobre si es un buen candidato para ese rol.
-
-Señala:
+## Instrucciones de Evaluación
+Por favor, evalúa el perfil anexo del candidato a la luz de las indicaciones descritas arriba y proporciona tu opinión sobre si es un buen candidato para la necesidad y el rol. En particular señala:
 * Sus fortalezas relevantes para nuestra necesidad de contratación.
-* Sus debilidades relevantes para nuestra necesidad de contratación.
-* Las incógnitas e informaciones relevantes no descritas en su perfil.
-* Las preguntas adicionales que debería hacerle si decido entrevistarle.
-* La posibilidad de que permanezca por buen tiempo en la posición o la posibilidad de que dure poco tiempo en la posición.
-* Posibles señales de alerta respecto a deficiencias en su rendimiento y efectividad.
-* Tu recomendación sobre: 1) si le consideramos para la posición, 2) si le contratamos, 3) si no le contratamos, 4) si no le contratamos, pero le consideramos para otra posición.
+* Sus debilidades o carencias relevantes para nuestra necesidad de contratación.
+* Las incógnitas, información no descrita claramente o faltante en su perfil.
+* Las preguntas claves y adicionales que deberíamos hacerle si decidimos entrevistarle.
+* Estimación de permanencia: ¿cuán probable es que permanezca en el puesto por un tiempo razonable o que permanezca poco tiempo?
+* Posibles señales de alerta que podrían indicar riesgo de deficiencias en su rendimiento y efectividad, adaptabilidad, etc.
+* Tu recomendación final: 1) Le consideramos para la posición, 2) Le contratamos, 3) No le contratamos, 4) No le contratamos, pero le consideramos para otra posición o rol.
 
 ## Consideración para la Evaluación
 Lo importante no es si el candidato es un buen profesional o tiene un buen perfil. Lo importante es que el candidato sea un buen match para la posición que deseamos llenar y sus competencias, experiencia y aptitudes sean relevantes para nuestra necesidad.
