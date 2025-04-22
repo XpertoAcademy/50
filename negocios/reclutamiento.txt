@@ -1,8 +1,9 @@
-## Nuestro perfil
-(describe tu empresa o tu persona si contratas de manera personal)
-Somos ...
-Nos dedicamos a ...
-Nos distinguimos por ... 
+## Contexto de Contratación: Nuestro perfil
+(Define quién contrata, en qué contexto organizacional y con qué valores)
+Somos [un(a) organización social/empresa/corporación/profesional independiente]
+Nos dedicamos a [misión/actividades] en el [sector/contexto/región].
+Nos distinguimos por [valores distintivos/cultura organizacional/forma de trabajo/estándares].
+
 
 ## Nuestra necesidad
 (describe la necesidad que se desea satisfacer, no la persona a contratar, sino el resultado a lograr y el impacto a generar por su contratación)
