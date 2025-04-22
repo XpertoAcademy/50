@@ -1,0 +1,35 @@
+## Nuestro perfil
+(describe tu empresa o tu persona si contratas de manera personal)
+Somos ...
+Nos dedicamos a ...
+Nos distinguimos por ... 
+
+## Nuestra necesidad
+(describe la necesidad que se desea satisfacer, no la persona a contratar, sino el resultado a lograr y el impacto a generar por su contratación)
+Necesitamos mejorar/satisfacer/desarrollar/aprovechar... 
+
+## Consideraciones sobre la necesidad y su satisfacción
+(describe aspectos delicados, dificultades, retos, requisitos específicos, particularidades, riesgos, etc. de la necesidad. Por ejemplo, requiere un enfoque organizado, continuo, tenaz, con seguimiento detallado, balanceando el seguimiento con el respeto, etc.)
+Satisfacer nuestra necesidad implica...
+
+## Intención
+(describe lo que deseas, ahora sí podemos describir el perfil, descripción de puesto y/o matriz de tareas de la persona a contratar)
+Deseamos contratar una persona con un perfil ... para ...
+
+## Consideraciones sobre el perfil a contratar
+(describe aspectos específicos importantes sobre el perfil a contratar. Por ejemplo, requiere discreción, buenas habilidades sociales, manejo profesional de alto nivel, habilidades tecnológicas, etc.)
+
+## Instrucción
+Por favor, evalúa el perfil anexo y proporciona tu opinión sobre si es un buen candidato para ese rol.
+
+Señala:
+* Sus fortalezas relevantes para nuestra necesidad de contratación.
+* Sus debilidades relevantes para nuestra necesidad de contratación.
+* Las incógnitas e informaciones relevantes no descritas en su perfil.
+* Las preguntas adicionales que debería hacerle si decido entrevistarle.
+* La posibilidad de que permanezca por buen tiempo en la posición o la posibilidad de que dure poco tiempo en la posición.
+* Posibles señales de alerta respecto a deficiencias en su rendimiento y efectividad.
+* Tu recomendación sobre: 1) si le consideramos para la posición, 2) si le contratamos, 3) si no le contratamos, 4) si no le contratamos, pero le consideramos para otra posición.
+
+## Consideración para la Evaluación
+Lo importante no es si el candidato es un buen profesional o tiene un buen perfil. Lo importante es que el candidato sea un buen match para la posición que deseamos llenar y sus competencias, experiencia y aptitudes sean relevantes para nuestra necesidad.
